@@ -59,8 +59,9 @@ define(function (require) {
 		payload['arguments'] = payload['arguments'] || {};
 		payload['arguments'].execute = payload['arguments'].execute || {};
 		payload['arguments'].execute.inArguments = [{
-			'serviceCloudId': '{{Event.' + eventDefinitionKey + '.\"ContactID\"}}'
+			'serviceCloudId': '{{Event.' + eventDefinitionKey + '.\"Contact:Id\"}}'
 		}];
+
 		payload['metaData'] = payload['metaData'] || {};
 		payload['metaData'].isConfigured = true;
 
