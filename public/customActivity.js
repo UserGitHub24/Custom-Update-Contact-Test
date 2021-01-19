@@ -58,6 +58,9 @@ define(function (require) {
 
 		payload['arguments'] = payload['arguments'] || {};
 		payload['arguments'].execute = payload['arguments'].execute || {};
+				
+		payload['arguments'].execute.inArguments = [{ "payload": eventDefinitionKey }];
+		
 		payload['metaData'] = payload['metaData'] || {};
 		payload['metaData'].isConfigured = true;
 
