@@ -5,7 +5,7 @@ define(function (require) {
 	var connection = new Postmonger.Session();
 	var payload = {};
 	var steps = [
-		{'key': 'eventdefinitionkey', 'label': 'Event Definition Key'}
+		{'key': 'eventdefinitionkey', 'label': 'Status Code'}
 	];
 	var currentStep = steps[0].key;
 
