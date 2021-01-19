@@ -53,9 +53,8 @@
 			  "enrollmentAttributeValue": "{{Contact.Attribute.Test Journey Entry Source Initial Visit Confirm Appointment.Enrollment Attribute Value}}",
 			  "enrollmentAttributeType": "{{Contact.Attribute.Test Journey Entry Source Initial Visit Confirm Appointment.Enrollment Attribute Type}}",
 			  "enrollmentAttributeSubType": "{{Contact.Attribute.Test Journey Entry Source Initial Visit Confirm Appointment.Enrollment Attribute Sub Type}}",
-			  "enrollmentAttributeCode": "{{Contact.Attribute.Test Journey Entry Source Initial Visit Confirm Appointment.Enrollment Attribute Code}}",
-		          "statusCode": "{{Contact.Attribute.Test Journey Entry Source Initial Visit Confirm Appointment.Status Code}}"
-			}
+			  "enrollmentAttributeCode": "{{Contact.Attribute.Test Journey Entry Source Initial Visit Confirm Appointment.Enrollment Attribute Code}}"
+		        }
 		],
 			"outArguments": [],
 			"url": "https://custom-update-contact-test.herokuapp.com/activity/execute",
@@ -71,22 +70,6 @@
 		"url": "https://custom-update-contact-test.herokuapp.com/index.html",
 		"height": 200,
 		"width": 500
-	},
-	"schema": {
-       "arguments": {
-           "execute": {
-               "inArguments": [
-                   {
-                       "Status Code": {
-                           "dataType": "Text",
-                           "isNullable": false,
-                           "direction": "in"   
-                       }
-                   }
-               ],
-               "outArguments": []
-           }
-       }
-   }
+	}
 	 
   }
