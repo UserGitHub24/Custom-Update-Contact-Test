@@ -34,7 +34,7 @@
 		}
 	},
 	"wizardSteps": [
-		{"key": "eventdefinitionkey", "label": "Event Definition Key"}
+		{"key": "eventdefinitionkey", "label": "Status Code"}
 	],	
 	"userInterfaces": {
 		"runningModal": {
