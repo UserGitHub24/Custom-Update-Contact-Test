@@ -72,4 +72,20 @@
 		"height": 200,
 		"width": 500
 	}
-}
+	   "schema": {
+       "arguments": {
+           "execute": {
+               "inArguments": [
+                   {
+                       "Status Code": {
+                           "dataType": "Text",
+                           "isNullable": false,
+                           "direction": "in"   
+                       }
+                   }
+               ],
+               "outArguments": []
+           }
+       }
+   }
+  }
