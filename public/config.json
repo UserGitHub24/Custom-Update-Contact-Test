@@ -15,19 +15,19 @@
 	"configurationArguments": {
 		"applicationExtensionKey": "95811fd7-40f8-4d42-b6fb-a4a3ddb44e68",
 		"save": {
-			"url": "https://custom-update-contact-test.herokuapp.com/save",
+			"url": "https://custom-update-contact-test.herokuapp.com/activity/save",
 			"verb": "POST",
 			"body": "",
 			"useJwt": true
 		},
 		"publish": {
-			"url": "https://custom-update-contact-test.herokuapp.com/publish",
+			"url": "https://custom-update-contact-test.herokuapp.com/activity/publish",
 			"verb": "POST",
 			"body": "",
 			"useJwt": true
 		},
 		"validate": {
-			"url": "https://custom-update-contact-test.herokuapp.com/validate",
+			"url": "https://custom-update-contact-test.herokuapp.com/activity/validate",
 			"verb": "POST",
 			"body": "",
 			"useJwt": true
@@ -74,7 +74,7 @@
 			}
 		],
 			"outArguments": [],
-			"url": "https://custom-update-contact-test.herokuapp.com/execute",
+			"url": "https://custom-update-contact-test.herokuapp.com/activity/execute",
 			"verb": "POST",
 			"body": "",
 			"header": "",
